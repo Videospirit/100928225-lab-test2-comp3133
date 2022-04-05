@@ -1,0 +1,12 @@
+span {
+    display: inline-block;
+}
+
+img {
+   float:left;
+   padding-right:8px;
+}
+
+h1 {
+    display: inline-block;
+}

@@ -1,1 +1,4 @@
-<p>missionlist works!</p>
+<div *ngFor="let mission of missions" (click)="displayScreen(mission)">
+    <span><img src={{mission.links.mission_patch_small}} width=40/>{{mission.mission_name}}<br/>{{mission.launch_year}}</span>
+    <br/><span>{{mission.details}}</span><br/>
+<div>
